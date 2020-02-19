@@ -22,6 +22,14 @@
     "build-storybook": "build-storybook -s public",
     "fake-server": "json-server --watch db.json"
   },
+  "_moduleAliases": {
+    "pages": "src/Pages",
+    "components": "src/Components",
+    "stories": "src/Stories",
+    "config": "src/Config",
+    "services": "src/Services",
+    "utils": "src/Utils"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
