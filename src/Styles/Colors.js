@@ -1,11 +1,9 @@
-export default {
-    green: '#51B496',
-    red: '#EF8884',
-    blue: '#2E74B5',
-    text1: '#4B4C4D',
-    text2: '#7F8081',
-    text3: '#808182',
-    background1: '#FFFFFF',
-    background2: #F6F7F8,
-    background3: #F6F7F8,
-}
+export const green = '#51B496';
+export const red = '#EF8884';
+export const blue = '#2E74B5';
+export const text1 = '#4B4C4D';
+export const text2 = '#7F8081';
+export const text3 = '#808182';
+export const background1 = '#FFFFFF';
+export const background2 = '#F6F7F8';
+export const background3 = '#F6F7F8';
