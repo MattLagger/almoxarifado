@@ -5,7 +5,11 @@ import { Select, InputLabel } from "@material-ui/core";
 
 import { green, red, blue } from "ui-colors";
 
-const Slt = styled(Select).attrs({})``;
+const Slt = styled(Select).attrs({})`
+  && {
+    border-color: green;
+  }
+`;
 
 export default function(props) {
   return (
