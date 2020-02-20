@@ -1,12 +1,14 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import {ButtonOutlined} from 'styles/Button';
+import Send from '@material-ui/icons/Send';
+import {IconButton, FabIcon} from 'styles/Button';
 
 export default {
   title: 'Icon Button',
-  component: ButtonOutlined,
+  component: IconButton,
 };
 
-export const Primary = () => <ButtonOutlined>Primary</ButtonOutlined>
-export const Alternative = () => <ButtonOutlined color='secondary'>Secondary</ButtonOutlined>
-export const Danger = () => <ButtonOutlined color='alternative'>Alternative</ButtonOutlined>
+export const Primary = () => <IconButton><Send /></IconButton>
+export const Alternative = () => <IconButton color='secondary'><Send /></IconButton>
+export const Danger = () => <IconButton color='alternative'><Send /></IconButton>
+export const Fab = () => <FabIcon color='alternative'><Send /></FabIcon>
