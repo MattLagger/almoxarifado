@@ -3,7 +3,7 @@ import { action } from '@storybook/addon-actions';
 import {ButtonOutlined} from 'styles/Button';
 
 export default {
-  title: 'Icon Button',
+  title: 'Button Outlined',
   component: ButtonOutlined,
 };
 
