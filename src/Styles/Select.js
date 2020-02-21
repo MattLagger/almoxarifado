@@ -7,14 +7,28 @@ import { green, red, blue } from "ui-colors";
 
 const Slt = styled(Select).attrs({})`
   && {
-    border-color: green;
+    ::after {
+      color: green;
+      border-bottom: 2px solid green;
+    }
+    ::before {
+      border-bottom: 2px solid green;
+    }
+  }
+`;
+
+const InputL = styled(InputLabel).attrs({})`
+  && {
+    ::focus {
+      color: green;
+    }
   }
 `;
 
 export default function(props) {
   return (
     <FormControl>
-      <InputLabel>{props.label}</InputLabel>
+      <InputL>{props.label}</InputL>
       <Slt value="">{props.children}</Slt>
     </FormControl>
   );
